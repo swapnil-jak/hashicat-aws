@@ -9,6 +9,10 @@ variable "dept" {
   description = "Department Tag Value."
 }
 
+variable "billable" {
+  description = "Is the asset billable? "
+}
+
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
 }
